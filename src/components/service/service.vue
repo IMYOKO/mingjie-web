@@ -1,5 +1,6 @@
 <template>
   <div class="service">
+    <div class="banner-inner"></div>
       service
   </div>
 </template>

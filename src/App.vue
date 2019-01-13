@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Header />
-    <router-view/>
+    <div class="container-wrapper">
+      <router-view/>
+    </div>
     <Footer />
   </div>
 </template>
@@ -18,10 +20,16 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less" scoped>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  .container-wrapper {
+    flex: 1;
+  }
 }
 </style>

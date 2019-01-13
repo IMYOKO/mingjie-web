@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+      <div class="banner-inner"></div>
       about
   </div>
 </template>
