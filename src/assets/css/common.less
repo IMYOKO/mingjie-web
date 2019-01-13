@@ -1,0 +1,117 @@
+@charset "UTF-8";
+body {
+	&.trade {
+		color:#fff;
+		background:#1C1E2E;
+	}
+	&.coin-list {
+		background: #f5f5f5;
+	}
+}
+// element-ui 样式重置
+.el-dialog {
+	color: #fff;
+	max-width: 480px;
+	border-radius: 0px;
+	background: #30334D;
+	// box-shadow: 0px 0px 40px #000;
+}
+.order-detail-pop {
+	.el-dialog {
+		max-width: 680px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.el-dialog {
+		width: 90%;
+	}
+}
+.el-dialog__headerbtn {
+  width: initial;
+  top: 18px;
+}
+.el-dialog__header {
+  padding: 15px 20px;
+  background: #26283D;
+}
+.el-dialog__title {
+  color: #fff;
+  font-size: 16px;
+}
+.midder-1200-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.el-carousel__arrow, {
+	line-height: 36px;
+	background-color: rgba(255, 255, 255, .2);
+	&:hover {
+		background-color: rgba(255, 255, 255, .4);
+	}
+}
+.el-carousel__indicators {
+	bottom: 10px;
+}
+.el-message {
+	min-width: 210px;
+	max-width: 400px;
+	@media screen and (min-width: 375px) and (max-width: 767px) {
+		min-width: 240px;
+	}
+	@media screen and (min-width: 768px) {
+		min-width: 380px;
+	}
+}
+.el-tooltip__popper {
+	color: #01030a;
+}
+// no more
+.no-more {
+	padding: 20px 0;
+	text-align: center;
+	span {
+		width: 300px;
+		height: 44px;
+		color: #4C61EE;
+		font-size: 14px;
+		line-height: 44px;
+		text-align: center;
+		border-radius: 4px;
+		cursor: pointer;
+		display: inline-block;
+		border: 1px solid #4C61EE;
+		&:active,
+		&:hover {
+			color: #fff;
+			background: #4C61EE;
+		}
+	}
+}
+// K线样式重置
+// .container span {
+// 	margin: 0 !important;
+// 	color: inherit !important;
+// 	font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif,"\5b8b\4f53" !important;
+// }
+#chart_toolpanel .chart_toolpanel_icon {
+	height: 24px;
+	width: 24px;
+	margin-bottom: 4px;
+}
+// 隐藏语言主题选择
+#chart_toolbar_theme,
+#chart_select_theme,
+#chart_language_setting_div {
+	display: none;
+}
+
+// 分页
+.pages-wrappers {
+	padding: 20px 0;
+	text-align: center;
+	p {
+		opacity: .5;
+		font-size: 14px;
+		padding: 40px;
+	}
+}
