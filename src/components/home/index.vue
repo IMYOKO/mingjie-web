@@ -25,7 +25,7 @@
         <h2>APP定制开发</h2>
         <div class="content-box">
           <p>iOS开发</p>
-          <p>Android开发</p>
+          <p>Android开发ss</p>
           <p>混合app开发</p>
         </div>
       </div>
